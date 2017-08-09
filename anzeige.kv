@@ -1,0 +1,36 @@
+
+
+
+<Anzeige_label>:
+    Label:
+        id: a1
+        text: 'nichts'
+
+<Knopf_rechts>:
+    font_size: 32
+    color: 0,0,0,1
+    size: 150,50
+    background_color: 0.88, 0.88, 0.88, 1
+
+<Knopf_links>:
+    font_size: 32
+    color: 0,0,0,1
+    size: 150,50
+    background_color: 0.88, 0.88, 0.88, 1
+
+<Anzeige>:
+    orientation: 'vertical'
+    Anzeige_label:
+    BoxLayout:
+
+        Knopf_links:
+            text: "Links"
+            on_release: print("linker Knopf")
+
+        Knopf_rechts:
+            text: "Rechts"
+            on_release: print("rechter Knopf")
+            on_release: app.stop()
+
+
+Anzeige:
