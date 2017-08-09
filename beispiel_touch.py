@@ -22,7 +22,7 @@ Das Touch ereignis wird in umgekehrter Reihenfolge abgearbeitet
 2 Knopf_Links
 3 Label
 
-return True  besagt das den Touchereignis abgearbeitet wurde und nichts mehr getan werden muss
+return True  besagt, das das Touchereignis abgearbeitet wurde und nichts mehr getan werden muss
 
 '''
 
@@ -77,7 +77,7 @@ class Knopf_rechts(Button):
 
 # Alle im der KV Datei verwendeten Klassen müssen vor dem Laden definiert sein
 # Die Klassen werden dann beim Laden aufgerufen
-Kivy_Beschreibung_laden = Builder.load_file('anzeige.kv')
+Kivy_Beschreibung_laden = Builder.load_file('beispiel_touch.kv')
 
 
 
